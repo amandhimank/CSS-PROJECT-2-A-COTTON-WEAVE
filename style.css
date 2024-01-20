@@ -192,12 +192,11 @@ html,body{
         justify-content: space-between;
         padding: 0px 5vw;
         padding-top: 5vw;
-        gap: 0;
+        gap: 2vh;
     }
 
     #left{
         height: fit-content;
-        height: 50%;
         width: 100%;
         justify-content: space-between;
         padding-bottom: 2vw;
@@ -212,6 +211,7 @@ html,body{
     }
 
     #color{
+        margin-top: 2vh;
         width: fit-content;
         height: fit-content;
         padding: 0.8vh 1vh;
@@ -231,6 +231,11 @@ html,body{
     #color2{
         height: 2vh;
         width: 2vh;
+    }
+
+    #left-bottom{
+        width: 100%;
+        height: fit-content;
     }
     
     #left-bottom h2{
